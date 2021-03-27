@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 :root {
     --first-color: blue;
     --second-color: red;
@@ -86,6 +92,10 @@ mark {
     text-align: center;
     margin: 0px auto 35px auto;
     width: 50%;
+  }
+
+  .project img {
+      width: 100%
   }
 
 /*contact me style start*/

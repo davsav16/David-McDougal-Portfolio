@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <title>David M. Portfolio</title>
     <link rel="stylesheet" href=""/>
+    <link rel="stylesheet" href="./assets/styles.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
@@ -29,7 +30,7 @@
                     <a href="contact">Contact</a>
                 </li>
                 <li>
-                    <a href="resume">resume</a>
+                    <a href="resume">Resume</a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/mcdougaldavid/">LinkedIn</a>
@@ -56,29 +57,31 @@
     </mark>
     <!--About me-->
     <section>
-        <h2>
+        <h2 class="section-title">
             About Me
         </h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis in aspernatur sunt aliquam? Dolore libero, iste error, reiciendis odio iure natus ipsa distinctio nulla sapiente voluptatem id itaque at voluptate.</p>
     </section>
 
-    <!--My first website-->
-    <section>
-        <h2>Run Buddy</h2>
-        <p> Created a functioning mobile website using HTML and CSS. Uses forms and flexboxes to provide an advanced user experiance</p>
-    </section>
-
     <!--Projects-->
-    <section>
-        <div>
-            <h2>
+    <section id="projects">
+        <div class="flex-row">
+            <h2 class="section-title">
                 Past Projects
             </h2>
         </div>
         
-        <div>
-            <!--Run-buddy-->
-            <article>
+        <div class="past-projects">
+            <article class="project">
+                <div>
+                    <h2>Run Buddy</h2>
+                    <p> Created a functioning mobile website using HTML and CSS. Uses forms and flexboxes to provide an advanced user experiance.
+
+                    </p>
+                </div>
+            </article>
+            <!--first website-->
+            <article class="project">
                 <div>
                     <h3>David M. Website 1.0</h3>
                     <p>
@@ -88,7 +91,7 @@
             </article>
 
             <!--Condesing and improving-->
-            <article>
+            <article class="project">
                 <div>
                     <h3>Horison Marketing</h3>
                     <p>In this project I was assigned the task of going through existing code and refractoring it to make it more concise</p>
@@ -96,7 +99,7 @@
             </article>
 
             <!--Robot Gladiators-->
-            <article>
+            <article class="project">
                 <div>
                     <h3>Robot Gladiators</h3>
                     <p>Using JavaScript I created an interactive game where a player could fight multipule different robots and earn money through different rounds of play.</p>
@@ -104,7 +107,7 @@
             </article>
 
             <!--Additonal Projects-->
-            <article>
+            <article class="project">
                 <div>
                     <h3>Additonal Projects To Come</h3>
                     <p>As time goes on and I continue to gain more experiance I will add new projects here as they are completed.</p>
@@ -115,14 +118,17 @@
 
     <!--Contact me-->
     <section>
-        <h2>
+        <h2 class="section-title">
             Contact Me
         </h2>
         <!--email, phone, linkedin-->
         <address>
-            Phone: 385.288.7920<br />
-            Email: <a href="mailto:davidbyu6@gmail.com">davidbyu6@gmail.com</a> <br />
-            LinkedIn <a href="https://www.linkedin.com/in/mcdougaldavid/">Message me on LinkedIn</a>
+            <ul class="contact">
+                <li>Phone: 385.288.7920</li>
+                <li>Email: <a href="mailto:davidbyu6@gmail.com">davidbyu6@gmail.com</a></li>
+                <li>LinkedIn <a href="https://www.linkedin.com/in/mcdougaldavid/">Message me on LinkedIn</a></li>
+            </ul>
+        </address>
     </section>
 
     <!--Footer-->

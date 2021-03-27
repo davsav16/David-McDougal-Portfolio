@@ -1,0 +1,105 @@
+:root {
+    --first-color: blue;
+    --second-color: red;
+    --third-color: white;
+}
+
+/*Header Style start*/
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 35px;
+    background-color: var(--second-color);
+    background-size: cover;
+    background-position: 80%;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--third-color);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--third-color);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+body {
+    color: var(--first-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgray;
+}
+
+/*Intro Stye start*/
+mark {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+/*about me style start*/
+
+
+/*run-buddy style start*/
+.run h2{
+    text-align:center;
+}
+
+/*projects style start*/
+
+.past-projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    flex: 1;
+    margin: 20px;
+    color: var(--third-color);
+    background-color: blueviolet;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.section-title {
+    font-size: 25px;
+    color: var(--secondary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0px auto 35px auto;
+    width: 50%;
+  }
+
+/*contact me style start*/
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+/*footer style*/
+footer {
+    text-align: center;
+    background-color: lime;
+}
+

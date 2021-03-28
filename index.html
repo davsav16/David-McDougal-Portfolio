@@ -53,16 +53,22 @@
         </h3>
     </section>
     <!--About me-->
-    <section id="about-me" class=flex-left >
-        <h2 class="section-title">
-            About Me
-        </h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis in aspernatur sunt aliquam? Dolore libero, iste error, reiciendis odio iure natus ipsa distinctio nulla sapiente voluptatem id itaque at voluptate.</p>
+    <section id="about-me">
+        <div class="about-me-title">
+            <h2 class="section-title">
+                About Me
+            </h2>
+        </div>
+        <div class="about-me-text"> 
+            <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis in aspernatur sunt aliquam? Dolore libero, iste error, reiciendis odio iure natus ipsa distinctio nulla sapiente voluptatem id itaque at voluptate.
+            </p>
+        </div>  
     </section>
 
     <!--Projects-->
-    <section id="projects"class="flex-left">
-        <div class="flex-row">
+    <section id="projects">
+        <div class="past-projects-title">
             <h2 class="section-title">
                 Past Projects
             </h2>
@@ -73,75 +79,81 @@
                 <a href="https://davsav16.github.io/run-buddy/" target="_blank">
                     <img src="./assets/images/run-buddy.PNG" alt="Snapshot of the Run Buddy webpage with a yellow header and contact form with a women tying her shoe in the background."/>
                 </a>
-                <div>
+                <div class="project-info">
                     <h2>Run Buddy</h2>
-                    <p> Created a functioning mobile website using HTML and CSS. Uses forms and flexboxes to provide an advanced user experiance.
-                    </p>
-                </div>
-            </article>
-            <!--first website-->
-            <article class="project">
-                <a href="https://davandsav.com/" target="_blank">
-                    <img src="./assets/images/website-one.PNG" alt="first website built by David McDougal, with his hame picture and links to BYU and info about him."/>
-                </a>
-                <div>
-                    <h3>David M. Website 1.0</h3>
-                    <p>
-                        This was my first ever attempt at creating a websit using HTML and CSS. It was completed while I was at BYU in my undergrad and showcases just how far I have come in my coding journey.
+                    <p> HTML and CSS
                     </p>
                 </div>
             </article>
 
-            <!--Condensing and improving-->
-            <article class="project">
-                <a href="https://davsav16.github.io/Horsieon-Marketing/" target="_blank">
-                    <img src="./assets/images/horiseon.PNG" alt="Snapshot of webpage that features a group of people around a marketing table with the title of the Webpage at the top."/>
-                </a>
-                <div>
-                    <h3>Horison Marketing</h3>
-                    <p>In this project I was assigned the task of going through existing code and refactoring it to make it more concise</p>
-                </div>
-            </article>
+            <div class="projects-small">
+                <div class="projects-smaller">
+                    <!--first website-->
+                    <article class="project">
+                        <a href="https://davandsav.com/" target="_blank">
+                            <img src="./assets/images/website-one.PNG" alt="first website built by David McDougal, with his hame picture and links to BYU and info about him."/>
+                        </a>
+                        <div class="pjtext">
+                            <h3 class="pjtext-title">David M. Website 1.0</h3>
+                            <p>
+                                HTML and CSS
+                            </p>
+                        </div>
+                    </article>
 
-            <!--Robot Gladiators-->
-            <article class="project">
-                <!--Img from https://www.freeimages.com/photo/contact-2-1533650-->
-                <a href=" https://davsav16.github.io/robot-gladiators" target="_blank">
-                    <img src="./assets/images/robot.jpg" alt="Robot and monkey with arms extended toward each other as if they are about to fight."/>
-                </a>
-                <div>
-                    <h3>Robot Gladiators</h3>
-                    <p>Using JavaScript I created an interactive game where a player could fight multipule different robots and earn money through different rounds of play.</p>
+                    <!--Condensing and improving-->
+                    <article class="project">
+                        <a href="https://davsav16.github.io/Horsieon-Marketing/" target="_blank">
+                            <img src="./assets/images/horiseon.PNG" alt="Snapshot of webpage that features a group of people around a marketing table with the title of the Webpage at the top."/>
+                        </a>
+                        <div class="pjtext">
+                            <h3>Horison Marketing</h3>
+                            <p>Refactoring HTML and CSS</p>
+                        </div>
+                    </article>
                 </div>
-            </article>
 
-            <!--Additonal Projects-->
-            <article class="project">
-                <!--Img from https://www.freeimages.com/photo/keyboard-1573055-->
-                <a href="" target="_blank">
-                    <img src="./assets/images/future.jpg" alt="Keyboard with wispy blue light surrounding it as if the keyboard is speeding off into the future."/>
-                </a>
-                <div>
-                    <h3>Additional Projects To Come</h3>
-                    <p>As time goes on and I continue to gain more experience I will add new projects here as they are completed.</p>
+                <div class="projects-smaller">
+                    <!--Robot Gladiators-->
+                    <article class="project">
+                        <!--Img from https://www.freeimages.com/photo/contact-2-1533650-->
+                        <a href=" https://davsav16.github.io/robot-gladiators" target="_blank">
+                            <img src="./assets/images/robot.jpg" alt="Robot and monkey with arms extended toward each other as if they are about to fight."/>
+                        </a>
+                        <div class="pjtext">
+                            <h3>Robot Gladiators</h3>
+                            <p>JavaScript and HTML</p>
+                        </div>
+                    </article>
+
+                    <!--Additonal Projects-->
+                    <article class="project">
+                        <!--Img from https://www.freeimages.com/photo/keyboard-1573055-->
+                        <a href="" target="_blank">
+                            <img src="./assets/images/future.jpg" alt="Keyboard with wispy blue light surrounding it as if the keyboard is speeding off into the future."/>
+                        </a>
+                        <div class="pjtext"> 
+                            <h3>Additional Projects To Come!</h3>
+                        </div>
+                    </article>
                 </div>
-            </article>
+            </div>
         </div>
     </section>
 
     <!--Contact me-->
-    <section class="flex-left" id="contact">
-        <h2 class="section-title">
+    <section  id="contact">
+        <h2 class="about-me-title">
             Contact Me
         </h2>
         <!--email, phone, linkedin-->
-        <address>
-            <ul class="contact">
-                <li>Phone: 385.288.7920</li>
-                <li>Email: <a href="mailto:davidbyu6@gmail.com">davidbyu6@gmail.com</a></li>
-                <li><a href="https://www.linkedin.com/in/mcdougaldavid/">Message me on LinkedIn</a></li>
-            </ul>
-        </address>
+        <div class="contact-info">
+                <ul>
+                    <li>Phone: 385.288.7920</li>
+                    <li>Email: <a href="mailto:davidbyu6@gmail.com">davidbyu6@gmail.com</a></li>
+                    <li><a href="https://www.linkedin.com/in/mcdougaldavid/">Message me on LinkedIn</a></li>
+                </ul>
+        </div>
     </section>
 
     <!--Footer-->

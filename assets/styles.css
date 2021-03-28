@@ -68,67 +68,134 @@ body {
 }
 
 /*about me style start*/
+#about-me {
+    display: flex;
+    height: 200px;
+}
+
+.about-me-title {
+    width: 30%;
+    border-right: 3px solid blue;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.about-me-title h2 {
+    margin-right: 20px;
+}
+
+.about-me-text {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #about-me p {
     color: white;
-    text-align: right;
     padding: 10px 15px;
+    font-size: 1.8rem;
 }
 
 
 /*run-buddy style start*/
-.run h2{
-    text-align:center;
-}
+
 
 /*projects style start*/
+#projects {
+    display: flex;
+    margin-top: 50px;
+}
+
+.past-projects-title{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    border-right: 3px solid blue;
+}
+
+.past-projects-title h2 {
+    font-size: 2.5rem;
+    margin-right: 19px;
+}
+
 .past-projects {
-    width: 50%;
-    margin: 0 auto;
+    width: 70%;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
 }
 
 .project {
     flex: 1;
     margin: 20px;
     color: var(--third-color);
-    background-color: blueviolet;
+    position: relative;
+}
+.project-info {
+    position:absolute;
+    bottom: 31px;
+    left: 21px;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
 }
 
-
 .section-title {
-    font-size: 25px;
     color: var(--secondary-color);
-    border-right: 3px solid;
     padding-bottom: 20px;
-    text-align: left;
     display: flex;
-    width: 30%;
   }
 
   .project img {
       width: 100%
   }
 
+  .projects-smaller {
+      display: flex;
+  }
+
+  .projects-smaller img {
+      height: 200px;
+  }
+
+  .pjtext {
+      position:absolute;
+      bottom: 10px;
+      left: 10px;
+      background-color: gray;
+      border-radius: 5px;
+      padding: 5px;
+      font-size: 12px;
+  }
+
 /*contact me style start*/
-.contact {
+#contact {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.contact-info {
+    width: 70%;
+    display: flex;
+}
+
+.contact-info ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-}
-
-.contact li{
     color: white;
     padding: 10px 15px;
 }
 
-.contact li a {
+.contact-info li a {
     color: white;
     text-decoration: none;
+    padding: 15px;
 }
 
 /*footer style*/

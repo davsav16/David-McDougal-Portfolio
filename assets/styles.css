@@ -80,7 +80,6 @@ body {
 /*about me style start*/
 #about-me {
     display: flex;
-    height: 200px;
 }
 
 .about-me-title {
@@ -94,7 +93,7 @@ body {
 }
 
 .about-me-title h2 {
-    margin-right: 20px;
+    margin-right: 12px;
 }
 
 .my-pic {
@@ -242,11 +241,57 @@ footer {
     }
 
     header h1 {
-        text-align: center;
+        text-align: left;
+        font-size: 12vw;
     }
 
     header nav ul{
         flex-direction: column;
-        justify-content: center;
+
     }
+
+    header nav ul li a {
+        font-size: 5vw;
+    }
+
+    .intro h2 {
+        font-size: 6vw;
+    }
+
+    .intro h3 {
+        font-size: 3vw;
+    }
+
+    #about-me {
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .about-me-title {
+        width: 100%;
+        justify-content: center;
+        border-bottom: 4px solid blue;
+        border-right: none;
+    }
+
+    .about-me-title h2 {
+        margin-right: 0px;
+        font-size: 7vw;
+    }
+
+    .my-pic {
+        width: 100%;
+        justify-content: center;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .about-me-text {
+        width: 100%;
+    }
+
+    #about-me p {
+        font-size: 4vw;
+    }
+
+  
 }

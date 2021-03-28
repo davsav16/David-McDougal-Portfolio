@@ -6,7 +6,7 @@
 
 :root {
     --first-color: blue;
-    --second-color: red;
+    --second-color: grey;
     --third-color: white;
 }
 
@@ -84,7 +84,7 @@ body {
 
 .about-me-title {
     width: 20%;
-    border-right: 4px solid blue;
+    border-right: 4px solid var(--first-color);
     margin-top: 10px;
     display: flex;
     justify-content: flex-end;
@@ -100,12 +100,12 @@ body {
     display: flex;
     width: 15%;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .my-pic img {
     width: 100%;
-    border: 4px solid blue;
+    border: 4px solid var(--first-color);
     box-shadow:  0 0 15px rgba(0, 0, 0, 0.7);
 }
 
@@ -123,9 +123,6 @@ body {
 }
 
 
-/*run-buddy style start*/
-
-
 /*projects style start*/
 #projects {
     display: flex;
@@ -136,7 +133,7 @@ body {
     width: 20%;
     display: flex;
     justify-content: flex-end;
-    border-right: 4px solid blue;
+    border-right: 4px solid var(--first-color);
     font-size: 2.5vw;
 }
 
@@ -160,7 +157,7 @@ body {
     position:absolute;
     bottom: 31px;
     left: 21px;
-    background-color: gray;
+    background-color: var(--second-color);
     border-radius: 5px;
     padding: 5px;
 }
@@ -173,7 +170,7 @@ body {
 
   .project img {
       width: 100%;
-      border: 4px solid blue;
+      border: 4px solid var(--first-color);
       box-shadow:  0 0 15px rgba(0, 0, 0, 0.7);
       
   }
@@ -217,6 +214,7 @@ body {
     color:var(--third-color);
     padding: 10px 15px;
     font-size: 1.8vw;
+    text-align: center;
 }
 
 .contact-info li a {
@@ -242,7 +240,8 @@ footer {
 
     header h1 {
         text-align: left;
-        font-size: 12vw;
+        font-size: 14vw;
+        text-shadow: 0 0 20px rgba(0, 0, 0, .9);
     }
 
     header nav ul{
@@ -251,15 +250,16 @@ footer {
     }
 
     header nav ul li a {
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     .intro h2 {
-        font-size: 6vw;
+        font-size: 9vw;
+        text-shadow: 0 0 20px rgba(0, 0, 0, .9);
     }
 
     .intro h3 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     #about-me {
@@ -270,13 +270,13 @@ footer {
     .about-me-title {
         width: 100%;
         justify-content: center;
-        border-bottom: 4px solid blue;
+        border-bottom: 4px solid var(--first-color);
         border-right: none;
     }
 
     .about-me-title h2 {
         margin-right: 0px;
-        font-size: 7vw;
+        font-size: 10vw;
     }
 
     .my-pic {
@@ -290,8 +290,57 @@ footer {
     }
 
     #about-me p {
-        font-size: 4vw;
+        font-size: 5vw;
     }
+
+    #projects {
+        flex-direction: column;
+    }
+
+    .past-projects-title {
+        width: 100%;
+        justify-content: center;
+        border-right: none;
+        border-bottom: 4px solid var(--first-color);
+    }
+
+    .past-projects {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 10vw;
+        text-align: center;
+    }
+
+    .project-info {
+        bottom: 10px;
+        left: 8px;
+    }
+
+    .pjtext {
+        bottom: 4px;
+        left: 2px;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .contact-info ul {
+        flex-direction: column;
+        width: 100%;
+        font-size: 6vw;
+    }
+
+    footer {
+        font-size: 2vw;
+    }
+
 
   
 }

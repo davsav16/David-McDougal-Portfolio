@@ -9,7 +9,7 @@ A Website Designed by me to showcase my skills to future potential hiring manage
 *CSS
 
 ## Website
-https://davsav16.github.io/davidmportfolio/
+https://davsav16.github.io/David-McDougal-Portfolio/
 
 ## Contribution
 Made by David McDougal

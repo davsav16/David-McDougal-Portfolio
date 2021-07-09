@@ -126,28 +126,19 @@ body {
 /*Skills*/
 #skills {
     display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
+    margin-top: 50px; 
+}
+.Sitem {
+    width: 11vw;
+    padding: 2px;
 }
 
-.Slist {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.skillList  {
+.displaySkill {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
+    padding-left: 57px;
 }
-
-.skillList li {
-    list-style: none;
-    font-size: 3vw;
-    padding: 10px 15px;
-}
-
 
 /*projects style start*/
 #projects {
@@ -353,6 +344,19 @@ footer {
 
     #about-me p {
         font-size: 5vw;
+    }
+    #skills {
+        flex-direction: column;
+    }
+
+    .displaySkill {
+        padding-left: 0px;
+        padding-top: 49px;
+    }
+
+    .Sitem {
+        width: 22vw;
+        padding: 2px;
     }
 
     #projects {
